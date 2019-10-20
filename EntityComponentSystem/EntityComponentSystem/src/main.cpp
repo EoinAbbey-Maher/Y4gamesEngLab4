@@ -17,7 +17,7 @@ int main(int argc, char** argv)
 
 	game = new Game();
 
-	game->init("lab3 SDL FSM", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 600, false);
+	game->init("lab4 Entity Component System", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 600, false);
 
 	game->loadContent();
 
@@ -35,7 +35,5 @@ int main(int argc, char** argv)
 	SDL_Init(SDL_INIT_EVERYTHING);
 	SDL_Quit();
 	
-	std::cin.get();
-
 	return 1; // success
 }
